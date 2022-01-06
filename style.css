@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+.header {
+  background: url("headingImage.png");
+  border-radius: 10px;
+  width: 100%;
+  height: 170px;
+  opacity: 0.8;
+  position: relative;
+}
+
+/* Box layout */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+.box {
+  background-color: rgba(41, 244, 255, 0.27);
+  border-radius: 25px;
+  padding: 30px;
+  position: relative;
+  margin: 15px;
+  width: 45%;
+  height: 400px;
+}
+
+.box h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.box iframe {
+  border-radius: 25px;
+  width: 100%;
+  height: 90%;
+}
+
+/* About Section */
+
+.box li {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  font-size: 1vw;
+}
+
+.box img {
+  width: 100%;
+  height: 90%;
+  padding-top: 10px;
+}
+
+.box img #socialMedia {
+  background-size: 40%;
+}
